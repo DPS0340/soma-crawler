@@ -665,9 +665,10 @@ dependencies = [
 ]
 
 [[package]]
-name = "soma-crawler"
+name = "soma_crawler"
 version = "0.1.0"
 dependencies = [
+ "once_cell",
  "reqwest",
  "tl",
  "tokio",
